@@ -12,13 +12,13 @@ int main()
  int pontos_turisticos_carta1 = 0;
  
  //dados carta 2
-/* char estado_carta2 ='b';
+ char estado_carta2 ='b';
  char codgo_da_carta2[20] ="";
  char nome_da_cidade_carta2[20] = "";
  int populacao_carta2= 0;
  float area_carta2 = (0.0);
  float pib_carta2 = (0.0);
- int pontos_turisticos_carta2 = 0;*/
+ int pontos_turisticos_carta2 = 0;
 
  
  //entrada de dados:
@@ -29,7 +29,7 @@ int main()
  printf("escolha uma letra de 'A' a 'H':");
  scanf(" %c", &estado_carta1);
  
- printf("escolha um numero de 1 a 4:");
+ printf("escolha um numero de 01 a 04:");
  scanf("%s", codgo_da_carta1);
  
  printf("escolha o nome da cidade:");
@@ -49,13 +49,14 @@ int main()
  
  
 
- //entrada de dados da carta 2
-// printf("carta 2 \n");
+//entrada de dados da carta 2
  
-/* printf("escolha uma letra de 'A' a 'H':");
+ printf("carta 2 \n");
+ 
+ printf("escolha uma letra de 'A' a 'H':");
  scanf(" %c", &estado_carta2);
  
- printf("escolha um numero de 1 a 4:");
+ printf("escolha um numero de 01 a 04:");
  scanf("%s", codgo_da_carta2);
  
  printf("escolha o nome da cidade:");
@@ -71,7 +72,7 @@ int main()
  scanf (" %f", &pib_carta2);
  
  printf("indique os pontos turisticos: ");
- scanf("%d", &pontos_turisticos_carta2);*/
+ scanf("%d", &pontos_turisticos_carta2);
  
  
  //saida de dados.
@@ -87,13 +88,14 @@ int main()
  printf("pontos turisticos: %d \n", pontos_turisticos_carta1);
  
  //exibe os dados da carta 2
-/* printf("carta2\n");
+ printf("carta2\n");
  printf("estado: %c\n", estado_carta2);
  printf("codgo da carta: %s \n", codgo_da_carta2);
  printf("nome da cidade: %s \n", nome_da_cidade_carta2);
  printf("populacao: %d \n", populacao_carta2);
  printf("area em km: %.2f \n", area_carta2);
  printf("pib: %.2f \n", pib_carta2);
- printf("pontos turisticos: %d \n", pontos_turisticos_carta2);*/
+ printf("pontos turisticos: %d \n", pontos_turisticos_carta2);
  return 0;
+
 }
